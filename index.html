@@ -12,11 +12,209 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <!-- <link rel="stylesheet" href="bootstrap.min.css" /> -->
 
-    <title>Hello, world!</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/40ffc7245d.js" crossorigin="anonymous"></script>
+
+    <title>Farm to Community</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Farm to Community</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#section-what">What We Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-started">How it Started</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-join">Get Involved</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="jumbotron jumbotron-fluid text-center mb-0">
+      <div class="container">
+        <h1 class="display-4">Connecting Farms to Families</h1>
+        <p class="lead">
+          Farmers are struggling. Food is going to waste. Many families are hungry. <br />
+          Let's help connect the dots.
+        </p>
+        <a class="btn btn-success btn-lg" href="#" role="button">Join Us</a>
+      </div>
+    </div>
+
+    <!-- How it Works section -->
+    <div id="section-what" class="text-center">
+      <h2 class="mb-5">What We Do</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <i class="fas fa-hand-holding-usd"></i>
+            <h4>1. Fundraise</h4>
+            <p>In the local community</p>
+          </div>
+          <div class="col-sm">
+            <i class="fas fa-tractor"></i>
+            <h4>2. Buy Excess</h4>
+            <p>Foods from local farmers</p>
+          </div>
+          <div class="col-sm">
+            <i class="fas fa-apple-alt"></i>
+            <h4>3. Give Food</h4>
+            <p>To local people in need</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <!-- About Section -->
+    <div id="section-started" class="text-center pt-5 pb-5">
+      <div class="container">
+        <h2 class="mb-5">How It Started</h2>
+        <!-- <p class="lead">It began in Lewis County, NY</p> -->
+        <p class="pb-5">
+          It began in Lewis County, NY when one generous person decided to buy eggs from a farm that
+          were going to otherwise go to waste, and donate them to the South Lewis school meal
+          delivery program to get them to local families in need.
+        </p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/X4xz03s8lq8"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- Featurettes -->
+    <div class="container">
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">
+            A generous community
+            <!-- <span class="text-muted">It'll blow your mind.</span> -->
+          </h2>
+          <p class="lead">
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+            euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
+            dapibus, tellus ac cursus commodo.
+          </p>
+          <a
+            class="btn btn-outline-success btn-lg"
+            href="https://www.gofundme.com/f/south-lewis-farm-to-community-1"
+            role="button"
+            >Donate Now</a
+          >
+        </div>
+        <div class="col-md-5">
+          <img
+            class="featurette-image img-fluid mx-auto"
+            src="images/placeholder.svg"
+            alt="Generic placeholder image"
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">
+            A passionate team
+            <!-- <span class="text-muted">See for yourself.</span> -->
+          </h2>
+          <p class="lead">
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+            euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
+            dapibus, tellus ac cursus commodo.
+          </p>
+          <a
+            class="btn btn-outline-success btn-lg mt-3"
+            href="https://www.facebook.com/LCFarmToCommunity"
+            role="button"
+            >Follow Us on Facebook</a
+          >
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            class="featurette-image img-fluid mx-auto"
+            src="images/placeholder.svg"
+            alt="Generic placeholder image"
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette pb-5">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">
+            Connecting the Dots
+            <!-- <span class="text-muted">Checkmate.</span> -->
+          </h2>
+          <p class="lead">
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+            euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
+            dapibus, tellus ac cursus commodo.
+          </p>
+          <a
+            class="btn btn-outline-success btn-lg mt-3"
+            href="https://www.nny360.com/top_stories/farm-food-finds-it-way-to-south-lewis-families-through-the-farm-to-community-program/article_98a7f989-6cdb-5695-b6d7-1f67edcc1896.html"
+            role="button"
+            >Read More</a
+          >
+        </div>
+        <div class="col-md-5">
+          <img
+            class="featurette-image img-fluid mx-auto"
+            src="images/placeholder.svg"
+            alt="Generic placeholder image"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- /END THE FEATURETTES -->
+
+    <!-- Join Us CTA -->
+    <div class="jumbotron text-center" id="section-join">
+      <h2 class="display-4">Let's help more farmers and families</h2>
+      <p class="lead">
+        We need your help to grow Farm to Community to more meal delivery programs and regions, so
+        that we can reach help more struggling farmers and more families in need.
+      </p>
+      <p>
+        Whether you're a farmer with excess products to contribute, a food bank owner, or would just
+        like to volunteer to help organize a program in your area, click below to join us and help
+        connect more families with local, healthy foods.
+      </p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Join Us</a>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

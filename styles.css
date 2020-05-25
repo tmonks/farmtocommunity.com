@@ -1,0 +1,36 @@
+body {
+  /* padding-top: 3rem; */
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+.btn {
+  border-radius: 20px;
+}
+
+.fas {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+#section-what {
+  padding: 6em 0;
+}
+
+#section-started {
+  /* background-color: #eee; */
+  padding: 6em 0;
+}
+
+/* Featurettes ------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
