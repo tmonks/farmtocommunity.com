@@ -3,12 +3,24 @@ body {
 }
 
 .btn {
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .fas {
   font-size: 3em;
   margin-bottom: 0.5em;
+}
+
+.fas,
+#section-what h4,
+#section-what h2 {
+  /* color: #587229; Dark Olive */
+  /* Peru */
+  /* color: #d38b58;  */
+  /* Success */
+  /* color: #28a745; */
+  /* Sienna (brown) */
+  color: #88603e;
 }
 
 #section-hero {
@@ -35,16 +47,25 @@ body {
   transform: translate(-50%, -50%);
 }
 
+h2 {
+  font-weight: 400;
+  letter-spacing: -0.05rem;
+}
+
 #section-what {
   padding: 6em 0;
 }
 
 #section-started {
-  /* background-color: #eee; */
-  padding: 6em 0;
+  background-color: #e9ecef;
+  padding: 8em 0;
 }
 
 /* Featurettes ------------------------- */
+
+#section-featurettes {
+  padding: 8em 0;
+}
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
