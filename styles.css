@@ -1,6 +1,4 @@
 body {
-  /* padding-top: 3rem; */
-  padding-bottom: 3rem;
   color: #5a5a5a;
 }
 
@@ -11,6 +9,30 @@ body {
 .fas {
   font-size: 3em;
   margin-bottom: 0.5em;
+}
+
+#section-hero {
+  color: white;
+  background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    /* url("images/variety-of-vegetables-1458694-crop.jpg"); */
+      url("images/radish-and-carrots-1656663-crop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-top: 200px;
+  /*  */
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #section-what {
