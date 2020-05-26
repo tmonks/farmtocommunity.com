@@ -20,7 +20,8 @@ body {
   /* Success */
   /* color: #28a745; */
   /* Sienna (brown) */
-  color: #88603e;
+  /* color: #88603e; */
+  color: #444;
 }
 
 #section-hero {
@@ -57,8 +58,29 @@ h2 {
 }
 
 #section-started {
-  background-color: #e9ecef;
+  /* background-color: #e9ecef; */
+  background-color: #f5f5f5;
   padding: 8em 0;
+}
+
+/* responsively size the video when width < 560 */
+@media (max-width: 560px) {
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    /* keep the video from going over top of the header */
+    z-index: 0;
+  }
+
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
 }
 
 /* Featurettes ------------------------- */
@@ -76,4 +98,9 @@ h2 {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -0.05rem;
+}
+
+#section-join {
+  padding-top: 8em;
+  padding-bottom: 8em;
 }
