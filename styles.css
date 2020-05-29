@@ -6,6 +6,10 @@ body {
   border-radius: 25px;
 }
 
+.container {
+  max-width: 1000px;
+}
+
 .fas {
   font-size: 3em;
   margin-bottom: 0.5em;
@@ -37,9 +41,22 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
-  padding-top: 200px;
-  /*  */
+  height: 400px;
+  padding-top: 100px;
+}
+
+.jumbotron > .container {
+  max-width: 900px;
+}
+
+@media (max-width: 800px) {
+  #section-hero {
+    padding-top: 20px;
+  }
+
+  /* #section-hero h1 {
+    font-size: 2em;
+  } */
 }
 
 .centered {
