@@ -15,6 +15,11 @@ body {
   margin-bottom: 0.5em;
 }
 
+.navbar .btn {
+  color: white !important;
+  padding: 6px;
+}
+
 /* Color the icons and headings in the What We Do section */
 .fas,
 #section-what h4,
