@@ -10,7 +10,7 @@ body {
   max-width: 1000px;
 }
 
-.fas {
+#section-what .fas {
   font-size: 3em;
   margin-bottom: 0.5em;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 /* Color the icons and headings in the What We Do section */
-.fas,
+#section-what .fas,
 #section-what h4,
 #section-what h2 {
   /* color: #587229; Dark Olive */
@@ -128,4 +128,34 @@ h2 {
 #section-join {
   padding-top: 8em;
   padding-bottom: 8em;
+}
+
+/* Footer section */
+
+#section-footer {
+  /* background-color: #333; */
+  background-color: #666;
+  /* color: white; */
+  /* background-color: #e9ecef; */
+  font-size: 3em;
+  margin: 0 10px;
+}
+
+#section-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-icon {
+  transition: all;
+  transition-duration: 200ms;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 300;
 }
